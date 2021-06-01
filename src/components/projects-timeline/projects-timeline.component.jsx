@@ -172,7 +172,7 @@ const TimeLine = () => {
           {/* URL Sortner */}
           
           <ImageEvent
-            date="15/05/2021"
+            date="20/04/2021"
             className="text-center"
             text="URL Shortner"
             src={L_URLSORT}
@@ -309,7 +309,7 @@ const TimeLine = () => {
           </ImageEvent>
 
           <ImageEvent
-            date="15/05/2021"
+            date="15/03/2021"
             className="text-center"
             text="Spotify Playlist Clone"
             src={L_Spotify}
