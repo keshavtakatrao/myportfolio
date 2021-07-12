@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.a1c7fa8d.chunk.css",
-    "main.js": "/myportfolio/static/js/main.045b844c.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.045b844c.chunk.js.map",
+    "main.css": "/myportfolio/static/css/main.b919e334.chunk.css",
+    "main.js": "/myportfolio/static/js/main.359999d4.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.359999d4.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.33b9c03f.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.33b9c03f.js.map",
-    "static/js/2.736d4690.chunk.js": "/myportfolio/static/js/2.736d4690.chunk.js",
-    "static/js/2.736d4690.chunk.js.map": "/myportfolio/static/js/2.736d4690.chunk.js.map",
+    "static/js/2.7616fe18.chunk.js": "/myportfolio/static/js/2.7616fe18.chunk.js",
+    "static/js/2.7616fe18.chunk.js.map": "/myportfolio/static/js/2.7616fe18.chunk.js.map",
     "index.html": "/myportfolio/index.html",
-    "precache-manifest.59a270076e1d9c4783e590db7d268e27.js": "/myportfolio/precache-manifest.59a270076e1d9c4783e590db7d268e27.js",
+    "precache-manifest.f6d8ee602258b2b6bcdc257ea4dd26ae.js": "/myportfolio/precache-manifest.f6d8ee602258b2b6bcdc257ea4dd26ae.js",
     "service-worker.js": "/myportfolio/service-worker.js",
-    "static/css/main.a1c7fa8d.chunk.css.map": "/myportfolio/static/css/main.a1c7fa8d.chunk.css.map",
-    "static/js/2.736d4690.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.736d4690.chunk.js.LICENSE.txt",
+    "static/css/main.b919e334.chunk.css.map": "/myportfolio/static/css/main.b919e334.chunk.css.map",
+    "static/js/2.7616fe18.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.7616fe18.chunk.js.LICENSE.txt",
     "static/media/PollMaker.jpg": "/myportfolio/static/media/PollMaker.13558b5b.jpg",
     "static/media/accenture-3.svg": "/myportfolio/static/media/accenture-3.21999f09.svg",
     "static/media/background.webp": "/myportfolio/static/media/background.bf989778.webp",
@@ -25,6 +25,7 @@
     "static/media/heroku.svg": "/myportfolio/static/media/heroku.b38ff61a.svg",
     "static/media/html-5.svg": "/myportfolio/static/media/html-5.676e8188.svg",
     "static/media/javascript.svg": "/myportfolio/static/media/javascript.2d2e31cc.svg",
+    "static/media/jobify.jpg": "/myportfolio/static/media/jobify.2c8304f6.jpg",
     "static/media/material-ui-1.svg": "/myportfolio/static/media/material-ui-1.82291019.svg",
     "static/media/mongodb.svg": "/myportfolio/static/media/mongodb.2985235d.svg",
     "static/media/mssql.svg": "/myportfolio/static/media/mssql.54d7bddc.svg",
@@ -47,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.33b9c03f.js",
-    "static/js/2.736d4690.chunk.js",
-    "static/css/main.a1c7fa8d.chunk.css",
-    "static/js/main.045b844c.chunk.js"
+    "static/js/2.7616fe18.chunk.js",
+    "static/css/main.b919e334.chunk.css",
+    "static/js/main.359999d4.chunk.js"
   ]
 }
