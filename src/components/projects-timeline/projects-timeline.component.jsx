@@ -5,7 +5,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import L_Pollmaker from "../../assets/img/projects/PollMaker.jpg";
 import L_URLSORT from '../../assets/img/projects/urlShortner.jpg'
 import L_Spotify from '../../assets/img/projects/spotify.jpg'
-
+import L_Jobify from '../../assets/img/projects/jobify.jpg';
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -31,8 +31,150 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        {/* Project: Poll Maker */}
-        <ImageEvent
+
+          {/* Project : Jobify */}
+          <ImageEvent
+            date="29/06/2021"
+            className="text-center"
+            text="Jobify"
+            src={L_Jobify}
+            alt="Jobify"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a online job portal created with MERN Stack<hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Login and Sign-Up for Recruiters and Candidate</li>
+                          <li>Candidate can apply to jobs and view job listing and applied jobs </li>
+                          <li>Recruiters can pos jobs and view the Candidates applied to the posted job</li>
+                          <li>Powered by MERN Stack</li>
+                          <li>Respoisive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node Js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node Js
+                            </span>
+                          </li>
+
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express JS
+                            </span>
+                          </li>
+
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Mongo DB
+                            </span>
+                          </li>
+
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="BootStrap"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              BootStrap
+                            </span>
+                          </li>
+
+
+
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://zen-jobify.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/keshavtakatrao/jobify-react"
+                  target="_blank"
+                >
+                  Github Repo
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
+          {/* Project: Poll Maker */}
+          <ImageEvent
             date="15/05/2021"
             className="text-center"
             text="Poll Maker"
@@ -107,7 +249,7 @@ const TimeLine = () => {
                               Node Js
                             </span>
                           </li>
-                          
+
                           <li>
                             <span className="p-2">
                               <Image
@@ -116,7 +258,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                             Express JS
+                              Express JS
                             </span>
                           </li>
 
@@ -140,11 +282,11 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                             BootStrap
+                              BootStrap
                             </span>
                           </li>
 
-                          
+
 
                         </ul>
                       </Card.Body>
@@ -170,7 +312,7 @@ const TimeLine = () => {
           </ImageEvent>
 
           {/* URL Sortner */}
-          
+
           <ImageEvent
             date="20/04/2021"
             className="text-center"
@@ -187,7 +329,7 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                    Project Details
+                      Project Details
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
@@ -203,7 +345,7 @@ const TimeLine = () => {
                         <strong>Tech used:</strong>
                         <ul>
 
-                        <li>
+                          <li>
                             <span className="p-2">
                               <Image
                                 src={L_REACT}
@@ -220,12 +362,12 @@ const TimeLine = () => {
                                 src={L_NODE_JS}
                                 alt="Node Js"
                                 rounded
-                                className="image-style1 m-1"y
+                                className="image-style1 m-1" y
                               ></Image>{" "}
                               Node Js
                             </span>
                           </li>
-                          
+
                           <li>
                             <span className="p-2">
                               <Image
@@ -234,7 +376,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                             Express JS
+                              Express JS
                             </span>
                           </li>
 
@@ -281,7 +423,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                             BootStrap
+                              BootStrap
                             </span>
                           </li>
 
@@ -293,13 +435,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://keshavtakatrao.github.io/reacturlshortner/#/"
+                  href="https://zen-url-shortner.netlify.app/#/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/keshavtakatrao/reacturlshortner"
+                  href="https://github.com/keshavtakatrao/react-url-shortner"
                   target="_blank"
                 >
                   Github Repo
@@ -324,7 +466,7 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                    Project Details
+                      Project Details
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
@@ -340,15 +482,15 @@ const TimeLine = () => {
                         <strong>Tech used:</strong>
                         <ul>
 
-                        <li>
-                          <span className="p-2">
+                          <li>
+                            <span className="p-2">
                               <Image
                                 src={L_JS}
                                 alt="BootStrap"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                             Javascript
+                              Javascript
                             </span>
                           </li>
 
@@ -383,7 +525,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                             BootStrap
+                              BootStrap
                             </span>
                           </li>
 
